@@ -1,0 +1,19 @@
+.MenyToggle {
+    position: fixed;
+    top: 40px;
+    left: 40px;
+    font-size: 20px;
+    cursor: pointer;
+    color: #fff;
+    transition: opacity, left .22s ease-in;
+    z-index: 100;
+}
+
+.MenyToggle:hover {
+    opacity: 70%;
+}
+
+.MenyToggle.open {
+    left: 320px;
+
+}
